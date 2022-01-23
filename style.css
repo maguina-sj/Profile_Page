@@ -1,0 +1,205 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px dotted red; */
+    padding: 0;
+    margin: 0;
+}
+.nav {
+    height: 70px;
+    width: 1200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.nav-links {
+    width: 700px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.nav-links > li > a {
+    text-decoration: none;
+    color: white;
+}
+.topbutton {
+    margin-right: 50px;
+}
+button {
+    background-color: darkcyan;
+    box-shadow: 2px 2px black;
+    color: white;
+}
+
+.container {
+    height: 300px;
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 150px;
+    box-shadow: 2px 2px 2px 2px gray;
+    /* padding-left: 10px; */
+}
+.container > h1 {
+    margin-top: 35px;
+    margin-left: 10px;
+
+}
+.topbar {
+    background-color: darkcyan;
+    width: 450px;
+    height: 80px;
+    position: inherit;
+    top: 0px;
+}
+.position > img {
+    position: absolute;
+    top: 160px;
+    left: 170px;
+}
+.seattle {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    justify-content: start;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.info > img {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.info > a {
+    margin-left: 5px;
+}
+.container2 {
+    height: 150px;
+    width: 200px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.todd {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+.phil {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+.connection {
+    color: white;
+    background-color: rgb(65, 63, 63);
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.connection > button {
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    background-color: gray;
+}
+.bigcontainer {
+    display: flex;
+}
+.container3 {
+    width: 450px;
+    height: 150px;
+    margin-left: 150px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.container3 > h2,h3,h4 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.container3 > h3 {
+    color: gray;
+}
+.education {
+    width: 450px;
+    height: 30px;
+    background-color: rgb(65, 63, 63);
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.bigcontainer2 {
+    display: flex;
+}
+.container4 {
+    width: 200px;
+    height: 238px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-left: 30px;
+    margin-top: -100px;
+}
+.yourconnections {
+    background-color: rgb(65, 63, 63);
+    width: 200px;
+    height: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.yourconnections > button {
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    background-color: gray;
+}
+.adrien {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.anne {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.alayne {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.arry {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.view {
+    width: 190px;
+    height: 30px;
+    border: 2px solid gray;
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+label {
+    margin-left: 5px;
+}
+p {
+    margin-left: 15px;
+}
